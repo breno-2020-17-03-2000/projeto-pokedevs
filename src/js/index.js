@@ -26,7 +26,7 @@ function mostrarCartaoPokedevSelecionado(pokedev) {
     const idPokedevSelecionado = pokedev.attributes.id.value;
     const idDoCartaoPokedevParaAbrir = "cartao-" + idPokedevSelecionado;
     const cartaoPokedevParaAbrir = document.getElementById(idDoCartaoPokedevParaAbrir);
-    CartaoPokedevParaAbrir.classList.add("aberto");
+    cartaoPokedevParaAbrir.classList.add("aberto");
     return idPokedevSelecionado;
 }
 
